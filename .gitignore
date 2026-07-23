@@ -1,3 +1,15 @@
 .env
 .env.local
 
+# Temp binaries
+tmp/
+air_errors.log
+
+# Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
